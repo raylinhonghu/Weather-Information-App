@@ -1,0 +1,21 @@
+/* BOT NAV TAB */
+mat-tab{
+  margin: 30px;
+  padding: 10px;
+}
+.botNavBar{
+  position: fixed;
+  bottom: 0px;
+  padding: 7px;
+  margin: 0px;
+  align-items: stretch;
+}
+
+.mat-icon-button{
+  position: fixed;
+  right: 20px;
+}
+
+.toolbarTop{
+  border: 30px solid black;
+}

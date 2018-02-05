@@ -20,5 +20,8 @@ export class MenuComponent implements OnInit {
 
   ngOnInit() {
   }
+  changeTitle():void{
+    console.log("sadsds")
+  }
 
 }
