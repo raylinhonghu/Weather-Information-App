@@ -1,0 +1,20 @@
+<mat-grid-list cols="6" rowHeight="50px">
+  <mat-grid-tile class="topMenu"
+      *ngFor="let menu of menus1"
+      [colspan]="menu.cols"
+      [rowspan]="menu.rows"
+      [style.background]="menu.color">
+      <mat-icon class="topMenuIcon">{{menu.icon}}</mat-icon><br>{{menu.text}}<br>
+      <button mat-button class="topMenuBtn">{{menu.btnText}}</button>
+  </mat-grid-tile>
+
+  <mat-grid-tile class="botMenu"
+      *ngFor="let menu of menus2"
+      [colspan]="menu.cols"
+      [rowspan]="menu.rows"
+      [style.background]="menu.color">
+      <mat-icon class="botMenuIcon">{{menu.icon}}</mat-icon><br>{{menu.text}}<br>
+      <button mat-button class="botMenuBtn">{{menu.btnText}}</button>
+  </mat-grid-tile>
+
+</mat-grid-list>

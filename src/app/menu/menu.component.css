@@ -1,0 +1,45 @@
+.topMenuBtn {
+  position: absolute;
+  bottom: 10%;
+  right: 25%;
+  width: 50%;
+  border: 1px solid black;
+  font-family: helvetica;
+}
+
+.botMenuBtn {
+  position: absolute;
+  bottom: 10%;
+  right: 13%;
+  width: 20%;
+  border: 1px solid black;
+}
+
+mat-grid-tile{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: helvetica;
+  border: 5px solid black;
+}
+
+.topMenu{
+  font-size: 130%;
+}
+
+.botMenu{
+  font-size: 107%;
+}
+
+.botMenuIcon{
+  position:absolute;
+  top:20px;
+  left: 40px;
+  font-size:40px;
+}
+
+.topMenuIcon{
+  position:absolute;
+  top:20%;
+  left: 35%;
+  font-size:50px;
+}

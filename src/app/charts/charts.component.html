@@ -1,0 +1,16 @@
+
+
+<button mat-button>My Button</button>
+
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+    <div *ngIf = "chart">
+      <canvas id="canvas" width="300" height="300">
+        {{chart}}
+      </canvas>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>2</mat-grid-tile>
+  <mat-grid-tile>3</mat-grid-tile>
+  <mat-grid-tile><button mat-button>My Button</button></mat-grid-tile>
+</mat-grid-list>
