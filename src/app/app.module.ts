@@ -7,20 +7,26 @@ import { AppComponent } from './app.component';
 import { ChartsComponent } from './charts/charts.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import { MenuComponent } from './menu/menu.component'
+import { MenuComponent } from './menu/menu.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { UserComponent } from './user/user.component';
+import { GraphicComponent } from './graphic/graphic.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartsComponent,
-    MenuComponent
+    MenuComponent,
+    UserComponent,
+    GraphicComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    AppRoutingModule
   ],
   providers: [WeatherInfoService],
   bootstrap: [AppComponent]
