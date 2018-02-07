@@ -1,3 +1,7 @@
+# App Screenshots (Menu, charts, graphic...)
+<img src="https://github.com/raylinhonghu/Weather-Information-App/blob/master/menu.png" width="300px">
+<img src="https://github.com/raylinhonghu/Weather-Information-App/blob/master/charts.png" width="300px">
+<img src="https://github.com/raylinhonghu/Weather-Information-App/blob/master/graphic.png" width="300px">
 # Charts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
